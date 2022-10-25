@@ -1,0 +1,33 @@
+@media screen and (max-width: 400px) {
+    .slicknav_menu{
+      display: block;
+    }
+    nav ul{
+      display: none;
+    }
+    .slicknav_menu {
+      background: none;
+    }
+    .slicknav_menu ul li a {
+      color: #fff;
+    }
+    .slicknav_nav ul li:hover {
+      background: none;
+    }
+    .slicknav_menu ul li {
+      padding: 0px;
+      background: green;
+      width: 140px;
+      text-align: center;
+      border-radius: 15px;
+    }
+    .slicknav_menu ul {
+      float: right;
+    }
+    .banner {
+        padding: 125px 0px;
+      }
+      .copy_right p {
+        font-size: 15px;
+      }
+}

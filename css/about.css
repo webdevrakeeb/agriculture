@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    background: #fff;
+}
+nav ul {
+    list-style: none;
+  }
+  nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;    
+  }
+  nav ul li a {
+    color: brown;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  nav ul li a:hover{
+    color: brown;
+  }
+  .slicknav_menu {
+    display: none;
+  }
+.banner{
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0px;
+    position: relative;
+}
+.banner::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* site content area start */
+.site_contente {
+  padding: 80px 0px;
+}
+/* PROGRESS STYLE START */
+
+  .skills span{
+     font-size: 25px;
+    font-weight: 700;
+  }
+  canvas {
+    width: 100px;
+    height: 100px;
+  }
+  #circle{
+    position: relative;
+    margin-top: 20px;
+  }
+  .box1 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .box2 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .box3 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .box4 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }  
+  .box5 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .box6 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .box7 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+/* site content area end */
+
+/* footer style start */
+.footer{
+  background: #ddd;
+  padding: 10px 0px;
+}
+.copy_right p {
+  margin-bottom: 0px;
+}
+/* footer style end */
